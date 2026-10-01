@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+
+body.dark {
+  background: #17231f !important;
+  color: #f6f0e7 !important;
+}
+
+body.dark .give,
+body.dark .box,
+body.dark .card {
+  background: #263832 !important;
+  border-color: #496158 !important;
+}
+
+body.dark p,
+body.dark .muted {
+  color: #c1cfc6 !important;
+}
+
+body.dark input,
+body.dark select,
+body.dark textarea {
+  background: #1d2925 !important;
+  border-color: #496158 !important;
+  color: #f6f0e7 !important;
+}
+
+body.dark .steps {
+  background: #1d2925 !important;
+  border-color: #9ac8aa !important;
+}
+

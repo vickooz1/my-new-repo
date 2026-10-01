@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="icon" type="image/png" href="assets/mglg-favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Generation Loves God</title>
+  <link rel="stylesheet" href="style.css?v=20260929-light-login" />
+</head>
+<body>
+  <main class="login-page">
+    <div class="login-card">
+      <div class="logo">My Generation Loves God</div>
+      <p class="subtitle" id="formSubtitle">Welcome back. Please log in to continue.</p>
+
+      <form id="loginForm" class="login-form active-form" autocomplete="off">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Gmail" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6" />
+
+        <button type="submit">Sign In</button>
+      </form>
+
+      <form id="registerForm" class="login-form hidden-form" autocomplete="off" novalidate>
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required />
+
+        <label for="regEmail">Email</label>
+        <input type="email" id="regEmail" name="regEmail" placeholder="Enter your email" required />
+
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" required />
+
+        <fieldset class="student-field">
+          <legend>Are you a student?</legend>
+          <label class="radio-option">
+            <input type="radio" name="studentStatus" value="yes" checked />
+            Yes
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="studentStatus" value="no" />
+            No
+          </label>
+        </fieldset>
+
+        <div id="institutionGroup" class="conditional-field">
+          <label for="institution">Institution</label>
+          <input type="text" id="institution" name="institution" placeholder="Enter your institution" />
+        </div>
+
+        <div id="residenceGroup" class="conditional-field hidden">
+          <label for="residence">Area of Residence</label>
+          <input type="text" id="residence" name="residence" placeholder="Enter your area of residence" />
+        </div>
+
+        <button type="submit">Create Account</button>
+      </form>
+
+      <div class="login-footer">
+        <span id="toggleText">Not registered?</span>
+        <a href="#" id="toggleLink">Create account</a>
+      </div>
+    </div>
+  </main>
+  <script src="script.js?v=20260929-light-only"></script>
+</body>
+</html>

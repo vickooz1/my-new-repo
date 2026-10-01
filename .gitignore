@@ -1,0 +1,24 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+mail-config.php
+
+# Logs and local diagnostics
+crash.txt
+*.log
+data/*.sqlite
+data/*.sqlite3
+
+# User-uploaded/generated files
+gallery_uploads/*
+!gallery_uploads/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Local development files
+.vscode/
+.DS_Store
+Thumbs.db
+
+*.zip

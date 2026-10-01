@@ -1,0 +1,14 @@
+.git
+.vscode
+.env
+.env.*
+!.env.example
+mail-config.php
+crash.txt
+*.log
+*.zip
+mglg-android/
+uploads/*
+!uploads/.gitkeep
+gallery_uploads/*
+!gallery_uploads/.gitkeep
